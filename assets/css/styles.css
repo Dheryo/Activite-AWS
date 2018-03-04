@@ -1,0 +1,66 @@
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: cambria, times, serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	background-color: #DDD;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-collapse: collapse;
+}
+
+#left_side, #small_side {
+	display: flex;
+	flex-direction: column;
+}
+
+#left_side {
+	max-width: 50%;
+	min-width: 500px;
+}
+
+#small_side {
+	max-width: 30%;
+	min-width: 300px;
+}
+
+.white_window {
+	background-color: #FFF;
+}
+
+.bordered_section {
+	border: solid #777 2px;
+	padding: 10px;
+}
+
+#post_form {
+	height: 200px;
+	background-color: #BBB;
+}
+
+#update_form {
+	display: flex;
+	height: 50px;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #CCC;
+}
+
+#informations {
+	min-height: 200px;
+	flex: 1;
+	background-color: #BBB;
+}
